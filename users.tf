@@ -1,7 +1,7 @@
 resource "azuread_user" "jdoe" {
-  user_principal_name = "jdoe@yourdomain.onmicrosoft.com"
+  user_principal_name = "jdoe@iamcollab.onmicrosoft.com"
   display_name         = "John Doe"
   mail_nickname         = "jdoe"
-  password              = 'random_password'
+  password              = "P@ssw0rd!2026Xyz"
   force_password_change = true
 }
