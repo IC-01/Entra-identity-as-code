@@ -1,7 +1,7 @@
-resource "azuread_user" "jdoe" {
-  user_principal_name = "jdoe@iamcollab.onmicrosoft.com"
-  display_name         = "John Doe"
-  mail_nickname         = "jdoe"
+resource "azuread_user" "joe" {
+  user_principal_name = "joe@iamcollab.onmicrosoft.com"
+  display_name         = "John Joe"
+  mail_nickname         = "joe"
   password              = "P@ssw0rd!2026Xyz"
   force_password_change = true
 }
